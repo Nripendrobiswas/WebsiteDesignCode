@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Department of EEE,SUST </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #f1a007;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #350a66;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #fffefe;
+            color: #0a0a0a;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            color: #a30808;
+
+        }
+        
+        p {
+            text-align: center;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Department of EEE,SUST </h1>
+    </header>
+
+    <nav>
+        <button onclick="showFaculty()">Faculty Members</button>
+        <button onclick="showStaff()">Staff </button>
+        <button onclick="showStudents()">Students</button>
+        <button onclick="showNotice()">EEE Notice Board </button>
+
+    </nav>
+
+    <section id="facultySection">
+        <h2>Faculty Information</h2>
+        
+        <p> 
+             
+                <figure>
+                <img src="BaizeedSirPic.png" alt="Trulli" style="width:40%">
+                <figcaption> Dr. Ifte Khairul Amin  </figcaption>
+                </figure>
+                Associate Professor <br>
+                Contact Information: <br>
+                Phone: +8801911034624 <br>
+                Email: iftekhar-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/284/5"> Web Profile </a> <br>
+            
+
+            
+                <figure>
+                <img src="BiswajitSirPic.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Biswajit Paul  </figcaption>
+                </figure>
+                Associate Professor <br>
+                Contact Information: <br>
+                Office Address: Room: 412 <br>
+                Phone: +880-1712-554955 <br>
+                Email: biswajit-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/282/5"> Web Profile </a> <br>
+                (on leave) <br> 
+
+
+                <figure>
+                <img src="RashedSirPic.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Dr. Md Rasedujjaman  </figcaption>
+              </figure>
+                Associate Professor <br>
+                Contact Information: <br>
+                Phone: 01714557885 <br>
+                Email: mrased-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/283/5"> Web Profile </a> <br>
+
+
+                <figure>
+                <img src="TuhinSirPic.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Tuhin Dey</figcaption>
+                </figure>
+                Assistant Professor <br>
+                Contact Information: <br>
+                Office Address: Room no- 412  <br>
+                Phone: 01772075404 <br>
+                Email: deytuhin-eee@sust.edu <br> 
+                <a href="https://tuhindey.wp.txstate.edu/"> Website </a> <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/286/5"> Web Profile </a> <br>
+            
+
+                <figure>
+                <img src="Princesir.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Dr. Mohammad Kamruzzaman Khan Prince</figcaption>
+               </figure>
+              Assistant Professor <br> 
+              Contact Information: <br> 
+              Phone: +8801986431521 <br> 
+              Email: kamruzzaman-eee@sust.edu <br> 
+              <a href="https://www.sust.edu/d/eee/faculty-profile-detail/290/5"> Web Profile </a> <br> 
+
+            
+                <figure>
+                <img src="Arifsir.png" alt="Trulli" style="width:40%">
+                <figcaption>Arif Ahammad</figcaption>
+                </figure>
+              Assistant Professor <br>
+              Contact Information: <br>
+              Phone: 01720122789 <br>
+              Email: arif-eee@sust.edu, arif08eee@gmail.com <br>
+              <a href="https://www.sust.edu/d/eee/faculty-profile-detail/567/5"> Web Profile </a> <br> 
+
+            
+                <figure>
+                <img src="Adnansir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Md. Mohsinur Rahman Adnan </figcaption>
+               </figure>
+              Assistant Professor <br>
+              Contact Information: <br>
+              Phone: 01916422526 <br>
+              Email: mmradnan-eee@sust.edu, adnanmohsin27@gmail.com <br>
+              <a href="https://www.sust.edu/d/eee/faculty-profile-detail/572/5"> Web Profile </a> <br> 
+              (on leave) <br>
+               
+            
+                <figure>
+                <img src="Hritessorsir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Hriteshwar Talukder </figcaption>
+                </figure>
+              Assistant Professor <br>
+              Contact Information: <br>
+              Phone: +8801745311342 <br>
+              Email: hriteshwar-eee@sust.edu <br>
+              <a href="https://www.sust.edu/d/eee/faculty-profile-detail/601/5"> Web Profile </a> <br> 
+              (on leave) <br>
+            
+
+                <figure>
+                <img src="Tahmidsir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Tahmid Aziz Chowdhury </figcaption>
+                </figure>
+                Assistant Professor <br>
+                Contact Information: <br>
+                Phone: 01720640456 <br>
+                Email: tahmid.aziz@gmail.com; tahmid-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/622/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+
+                <figure>
+                <img src="Mamunsir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Md. Asaduz Zaman Mamun </figcaption>
+                </figure>
+                Assistant Professor  <br>
+                Contact Information: <br>
+                Phone: 01515623326 <br>
+                Email: asadmamun-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/602/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+
+                <figure>
+                <img src="blankfemale.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Nuren Zabin Shuchi</figcaption>
+                </figure> 
+                Assistant Professor <br>
+                Contact Information: <br>
+                Phone: 01521460665 <br>
+                Email: nuren.bd@gmail.com <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/638/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+
+                <figure>
+                <img src="Sowmiksir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Showmik Singha </figcaption>
+                </figure>
+                Assistant Professor  <br>
+                Contact Information: <br>
+                Phone: +8801712331122 <br>
+                Email: showmiksingha-eee@sust.edu, showmik.eee@gmail.com <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/639/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+
+                <figure>
+                <img src="blankmale.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Nafis Imtiaz Rahman</figcaption>
+                </figure> 
+                Assistant Professor <br>
+                Contact Information: <br>
+                Phone: 01711519433 <br>
+                Email: nafisimtiaz71@gmail.com, imtiaz-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/733/5"> Web Profile </a> <br> 
+            
+                
+                <figure>
+                <img src="blankmale.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Md. Ishfak Tahmid</figcaption>
+                </figure>
+                Assistant Professor  <br>
+                Contact Information: <br>
+                Phone: 01715279154 <br>
+                Email: ishfaktahmid@gmail.com <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/696/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+
+                <figure>
+                <img src="blankfemale.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Jawata Afnan</figcaption>
+                </figure>
+                Lecturer <br>
+                Contact Information: <br>
+                Phone: 01717259325 <br>
+                Email: jawatafnan-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/289/5"> Web Profile </a> <br> 
+                (on leave) <br>
+            
+                
+                <figure>
+                <img src="Sharifsir.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Md. Shariful Islam </figcaption>
+                </figure>
+                Lecturer  <br>
+                Contact Information: <br>
+                Phone: 01943921852, 01518927738 <br>
+                Email: sharifuleee03@gmail.com, shariful-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/821/5"> Web Profile </a> <br> 
+            
+
+                <figure>
+                <img src="muhonamaam.jpg" alt="Trulli" style="width:40%">
+                <figcaption> Mohona Das Gupta </figcaption>
+                </figure>
+                Lecturer <br>
+                Contact Information: <br>
+                Phone: 01910059914 <br>
+                Email: mohona-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/849/5"> Web Profile </a> <br> 
+            
+
+                <figure>
+                <img src="Suptimaam.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Naima Sultana Alam Supti </figcaption>
+                </figure>
+                Lecturer <br>
+                Contact Information: <br>
+                Phone: 01681679557 <br>
+                Email: naimasupti-eee@sust.edu <br>
+                <a href="https://www.sust.edu/d/eee/faculty-profile-detail/856/5"> Web Profile </a> <br> 
+
+
+        </p>
+        
+    </section>
+
+    <section id="staffSection" style="display: none;">
+        <h2>Officers </h2>
+        <p>
+                <figure>
+                <img src="JemsBhai.jpg" alt="Trulli" style="width:40%">
+                <figcaption>Md. Jems Wat Mondol </figcaption>
+                </figure>
+                Asst Administrative Officer <br>
+
+                Contact Information: <br>
+                Phone: 01737123515 <br>
+                Email: jems-eee@sust.edu, jems.uisc3@gmail.com <br>
+
+                <!-- Add staff information here -->
+        </p>
+        
+    </section>
+
+    <section id="studentsSection" style="display: none;">
+        <h2>Students Information</h2>
+
+                        
+            <nav>
+                <button onclick="B11()">Batch 2011</button> <br>
+                <button onclick="B12()">Batch 2012</button> <br>
+                <button onclick="B13()">Batch 2013</button> <br>
+                <button onclick="B14()">Batch 2014</button> <br>
+                <button onclick="B20()">Batch 2020</button> <br>
+            </nav>
+                    <section id="B11Section">
+                            <h3> Batch 2011 Information </h3>
+                        <p>
+                            2011338001 <br>
+                            2011338002 <br>
+                             <!-- Add 11th batch information here -->
+                        </p>    
+                    </section>
+
+                    <section id="B12Section">
+                        <h3> Batch 2012 Information </h3>
+                        <p>
+                            2012338001 <br>
+                            2012338002 <br>
+                            <!-- Add 12th batch information here -->
+                        </p>    
+                    </section>
+
+                    <section id="B13Section">
+                        <h3> Batch 2013 Information </h3>
+                    <p>
+                        2013338001 <br>
+                        2013338002 <br>
+                         <!-- Add 13th batch information here -->
+                    </p>    
+                </section>
+
+                <section id="B14Section">
+                    <h3> Batch 2014 Information </h3>
+                    <p>
+                        2014338001 <br>
+                        2014338002 <br>
+                        <!-- Add 14th batch information here -->
+                    </p>    
+                </section>
+
+                <section id="B20Section">
+                    <h3> Batch 2020 Information </h3>
+                    <p>
+                        <a href="https://docs.google.com/spreadsheets/d/1AHYYhUu60ia9vL-fu4uYZwjFfCE8PNRF3YsTM4_ZuzQ/edit#gid=0">Session 2020-21 : Students Information</a> <br> 
+                        <a href="https://docs.google.com/spreadsheets/d/1_oBcF9RfBqc1OFir51ywIp7XSswPN6avJW8gm5xNzQw/edit#gid=0">Session 2020-21 : Blood Donor Information</a> <br> 
+                        <!-- Add 2020 batch information here -->
+                    </p>    
+                </section>
+        
+
+        <!-- Add students information here -->
+    </section>
+
+    <section id="NoticeSection" style="display: none;">
+        <h2>Updated Notice  </h2>
+        <a href="https://www.sust.edu/d/eee/notice-board"> Click here to see notice  </a> <br>
+        <!-- Add notice information here -->
+    </section>
+
+
+    <footer>
+        <p>&copy; Nripendro Biswas </p>
+    </footer>
+
+    <script>
+        function showFaculty() {
+    document.getElementById('facultySection').style.display = 'block';
+    document.getElementById('staffSection').style.display = 'none';
+    document.getElementById('studentsSection').style.display = 'none';
+    document.getElementById('NoticeSection').style.display = 'none';
+}
+
+function showStaff() {
+    document.getElementById('facultySection').style.display = 'none';
+    document.getElementById('staffSection').style.display = 'block';
+    document.getElementById('studentsSection').style.display = 'none';
+    document.getElementById('NoticeSection').style.display = 'none';
+}
+
+function showStudents() {
+    document.getElementById('facultySection').style.display = 'none';
+    document.getElementById('staffSection').style.display = 'none';
+    document.getElementById('studentsSection').style.display = 'block';
+    document.getElementById('NoticeSection').style.display = 'none';
+}
+
+function showNotice() {
+    document.getElementById('facultySection').style.display = 'none';
+    document.getElementById('staffSection').style.display = 'none';
+    document.getElementById('studentsSection').style.display = 'none';
+    document.getElementById('NoticeSection').style.display = 'block';
+}
+
+
+function B11(){
+    document.getElementById('B11Section').style.display='block';
+    document.getElementById('B12Section').style.display='none';
+    document.getElementById('B13Section').style.display='none';
+    document.getElementById('B14Section').style.display='none';
+    document.getElementById('B20Section').style.display='none';
+}
+
+function B12(){
+    document.getElementById('B11Section').style.display='none';
+    document.getElementById('B12Section').style.display='block';
+    document.getElementById('B13Section').style.display='none';
+    document.getElementById('B14Section').style.display='none';
+    document.getElementById('B20Section').style.display='none';
+
+}
+function B13(){
+    document.getElementById('B11Section').style.display='none';
+    document.getElementById('B12Section').style.display='none';
+    document.getElementById('B13Section').style.display='block';
+    document.getElementById('B14Section').style.display='none';
+    document.getElementById('B20Section').style.display='none';
+
+}
+function B14(){
+    document.getElementById('B11Section').style.display='none';
+    document.getElementById('B12Section').style.display='none';
+    document.getElementById('B13Section').style.display='none';
+    document.getElementById('B14Section').style.display='block';
+    document.getElementById('B20Section').style.display='none';
+
+}
+function B20(){
+    document.getElementById('B11Section').style.display='none';
+    document.getElementById('B12Section').style.display='none';
+    document.getElementById('B13Section').style.display='none';
+    document.getElementById('B14Section').style.display='none';
+    document.getElementById('B20Section').style.display='block';
+
+
+}
+
+    </script>
+</body>
+</html>
